@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходники">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Исходники\Ast">
+      <UniqueIdentifier>{f1d8f163-ae2a-432c-b97f-1398d04f8626}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lexer.cpp">
+      <Filter>Исходники</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходники</Filter>
+    </ClCompile>
+    <ClCompile Include="Token.cpp">
+      <Filter>Исходники</Filter>
+    </ClCompile>
+    <ClCompile Include="Expr.cpp">
+      <Filter>Исходники\Ast</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstExrp.cpp">
+      <Filter>Исходники\Ast</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryExpr.cpp">
+      <Filter>Исходники\Ast</Filter>
+    </ClCompile>
+    <ClCompile Include="VarExpr.cpp">
+      <Filter>Исходники\Ast</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Исходники</Filter>
+    </ClCompile>
+    <ClCompile Include="OperatorInfo.cpp">
+      <Filter>Исходники</Filter>
+    </ClCompile>
+    <ClCompile Include="Visitor.cpp">
+      <Filter>Исходники</Filter>
+    </ClCompile>
+    <ClCompile Include="EvalVisitor.cpp">
+      <Filter>Исходники</Filter>
+    </ClCompile>
+    <ClCompile Include="UnaryExpr.cpp">
+      <Filter>Исходники\Ast</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculate.cpp">
+      <Filter>Исходники</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lexer.h">
+      <Filter>Исходники</Filter>
+    </ClInclude>
+    <ClInclude Include="Token.h">
+      <Filter>Исходники</Filter>
+    </ClInclude>
+    <ClInclude Include="Expr.h">
+      <Filter>Исходники\Ast</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstExrp.h">
+      <Filter>Исходники\Ast</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryExpr.h">
+      <Filter>Исходники\Ast</Filter>
+    </ClInclude>
+    <ClInclude Include="VarExpr.h">
+      <Filter>Исходники\Ast</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Исходники</Filter>
+    </ClInclude>
+    <ClInclude Include="OperatorInfo.h">
+      <Filter>Исходники</Filter>
+    </ClInclude>
+    <ClInclude Include="Visitor.h">
+      <Filter>Исходники</Filter>
+    </ClInclude>
+    <ClInclude Include="EvalVisitor.h">
+      <Filter>Исходники</Filter>
+    </ClInclude>
+    <ClInclude Include="UnaryExpr.h">
+      <Filter>Исходники\Ast</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculate.h">
+      <Filter>Исходники</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
